@@ -1,0 +1,29 @@
+{
+  "company": {
+    "name": "MEIK LABS",
+    "address": {
+      "street": "Avenida Innovación 123",
+      "city": "Santiago",
+      "country": "Chile",
+      "postalCode": "8320000"
+    },
+    "coordinates": {
+      "lat": -33.4489,
+      "lng": -70.6693
+    }
+  },
+  "contact": {
+    "email": "contacto@meiklabs.com",
+    "phone": "+56 2 2123 4567",
+    "whatsapp": "+56 9 8765 4321"
+  },
+  "social": {
+    "linkedin": "https://linkedin.com/company/meik-labs",
+    "twitter": "https://twitter.com/meiklabs",
+    "github": "https://github.com/meik-labs"
+  },
+  "schedule": {
+    "weekdays": "Lunes - Viernes: 9:00 - 18:00",
+    "weekend": "Sábado - Domingo: Cerrado"
+  }
+}

@@ -1,0 +1,156 @@
+{
+  "publications": [
+    {
+      "id": "digital-twin-manufacturing-sme",
+      "title": "Implementación de Gemelos Digitales en PYMES Manufactureras: Un Caso de Éxito",
+      "authors": ["Dr. Marcus Rodriguez", "Eduardo Cisternas"],
+      "date": "2024-03-15",
+      "image": "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?auto=format&fit=crop&q=80&w=1200",
+      "abstract": "Análisis detallado de la implementación de un gemelo digital en una PYME manufacturera, logrando una reducción del 35% en costos de mantenimiento y un aumento del 25% en eficiencia operativa.",
+      "content": {
+        "challenge": "La empresa enfrentaba desafíos significativos en la predicción de mantenimiento y optimización de producción con recursos limitados.",
+        "solution": "Implementación de un gemelo digital modular y escalable utilizando sensores IoT económicos y software de código abierto.",
+        "implementation": [
+          "Instalación de sensores IoT en puntos críticos",
+          "Desarrollo de modelo 3D simplificado",
+          "Integración con sistema ERP existente",
+          "Capacitación del personal en nuevas herramientas"
+        ],
+        "results": {
+          "metrics": [
+            "35% reducción en costos de mantenimiento",
+            "25% aumento en eficiencia operativa",
+            "ROI positivo en 8 meses"
+          ],
+          "investment": "€50,000 - €75,000"
+        }
+      },
+      "keywords": ["Gemelos Digitales", "PYMES", "Manufactura", "IoT", "ROI"]
+    },
+    {
+      "id": "ai-agents-retail-optimization",
+      "title": "Agentes de IA para Optimización de Inventario en Retail: Solución Accesible para PYMES",
+      "authors": ["Dr. Emily Zhang", "Alex Patel"],
+      "date": "2024-03-01",
+      "image": "https://images.unsplash.com/photo-1441986300917-64674bd600d8?auto=format&fit=crop&q=80&w=1200",
+      "abstract": "Estudio de caso sobre la implementación de agentes de IA para gestión de inventario en una cadena minorista mediana, resultando en una reducción del 40% en stockouts y mejora del 30% en rotación de inventario.",
+      "content": {
+        "challenge": "Gestión ineficiente de inventario resultando en pérdidas por stockouts y exceso de stock.",
+        "solution": "Sistema de agentes de IA para predicción de demanda y optimización de inventario.",
+        "implementation": [
+          "Integración con sistema POS existente",
+          "Desarrollo de modelos predictivos personalizados",
+          "Automatización de pedidos",
+          "Dashboard de análisis en tiempo real"
+        ],
+        "results": {
+          "metrics": [
+            "40% reducción en stockouts",
+            "30% mejora en rotación de inventario",
+            "15% incremento en margen bruto"
+          ],
+          "investment": "€30,000 - €45,000"
+        }
+      },
+      "keywords": ["IA", "Retail", "Optimización de Inventario", "Machine Learning"]
+    },
+    {
+      "id": "digital-twin-logistics",
+      "title": "Gemelos Digitales en Logística: Optimización de Última Milla para PYMES",
+      "authors": ["Dr. Marcus Rodriguez", "Dr. Emily Zhang"],
+      "date": "2024-02-15",
+      "image": "https://images.unsplash.com/photo-1566576912321-d58ddd7a6088?auto=format&fit=crop&q=80&w=1200",
+      "abstract": "Implementación de un sistema de gemelo digital para optimización de rutas y gestión de flotas en una empresa logística mediana.",
+      "content": {
+        "challenge": "Ineficiencias en planificación de rutas y utilización de recursos en entregas de última milla.",
+        "solution": "Gemelo digital para simulación y optimización de rutas en tiempo real.",
+        "implementation": [
+          "Desarrollo de modelo de simulación",
+          "Integración con GPS de flota existente",
+          "Implementación de algoritmos de optimización",
+          "Sistema de reportes automatizados"
+        ],
+        "results": {
+          "metrics": [
+            "25% reducción en costos de combustible",
+            "35% mejora en entregas a tiempo",
+            "20% aumento en eficiencia de rutas"
+          ],
+          "investment": "€40,000 - €60,000"
+        }
+      },
+      "keywords": ["Logística", "Última Milla", "Optimización de Rutas", "GPS"]
+    }
+  ],
+  "research": [
+    {
+      "id": "affordable-digital-twin",
+      "title": "Marco de Trabajo para Implementación Económica de Gemelos Digitales en PYMES",
+      "researchers": ["Dr. Marcus Rodriguez", "Alex Patel"],
+      "status": "Completado",
+      "startDate": "2023-09-01",
+      "completionDate": "2024-02-28",
+      "image": "https://images.unsplash.com/photo-1581092335397-9583eb92d232?auto=format&fit=crop&q=80&w=1200",
+      "description": "Desarrollo de un marco de trabajo para implementación de gemelos digitales optimizado para presupuestos limitados de PYMES.",
+      "objectives": [
+        "Identificar tecnologías de código abierto viables",
+        "Desarrollar arquitectura modular y escalable",
+        "Crear guías de implementación paso a paso",
+        "Validar el marco en casos de uso reales"
+      ],
+      "outcomes": [
+        "Marco de trabajo validado en 3 PYMES",
+        "Reducción del 60% en costos de implementación",
+        "Tiempo de implementación reducido a 3-4 meses"
+      ],
+      "expectedCompletion": "2024-02-28"
+    },
+    {
+  "id": "asistente-virtual-emergencias-IA",
+  "title": "Asistente Virtual en Emergencias Médicas: Revolución con Inteligencia Artificial",
+  "authors": ["Dr. Laura Martínez", "Dr. Javier Gómez"],
+  "date": "2025-02-11",
+  "image": "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?auto=format&fit=crop&q=80&w=1200",
+  "abstract": "Desarrollo de SAVE-EM, un asistente virtual basado en IA para mejorar la toma de decisiones en emergencias médicas.",
+  "content": {
+    "challenge": "Los profesionales de emergencias médicas enfrentan la necesidad de acceder rápidamente a protocolos y guías actualizadas durante situaciones críticas.",
+    "solution": "Implementación de SAVE-EM, un sistema de IA generativa que integra más de 100 procesos estandarizados, permitiendo acceso inmediato a protocolos específicos y coordinación eficiente de traslados.",
+    "implementation": [
+      "Desarrollo de un sistema de IA generativa que integra más de 100 procesos estandarizados de gestión del CES-061.",
+      "Integración de SAVE-EM en los sistemas de emergencia existentes para facilitar el acceso a protocolos específicos y guías clínicas actualizadas.",
+      "Capacitación del personal de emergencias en el uso del asistente virtual para mejorar la coordinación y eficiencia en la atención."
+    ],
+    "results": {
+      "metrics": [
+        "Optimización del tiempo de respuesta en emergencias médicas.",
+        "Reducción de la variabilidad en la toma de decisiones clínicas.",
+        "Mejora en los resultados de salud de los pacientes atendidos."
+      ],
+      "investment": "Información no especificada."
+    }
+  },
+  "keywords": ["Inteligencia Artificial", "Emergencias Médicas", "Asistente Virtual", "Protocolos Clínicos"]
+},
+    {
+      "id": "ai-agents-sme",
+      "title": "Agentes de IA Adaptables para Automatización en PYMES",
+      "researchers": ["Dr. Emily Zhang", "Eduardo Cisternas"],
+      "status": "En Curso",
+      "startDate": "2024-01-15",
+      "image": "https://images.unsplash.com/photo-1485827404703-89b55fcc595e?auto=format&fit=crop&q=80&w=1200",
+      "description": "Investigación sobre el desarrollo de agentes de IA adaptables y económicos para automatización de procesos en PYMES.",
+      "objectives": [
+        "Desarrollar arquitectura de agentes adaptables",
+        "Implementar aprendizaje continuo",
+        "Optimizar para recursos computacionales limitados",
+        "Crear interfaces de usuario intuitivas"
+      ],
+      "progress": [
+        "Arquitectura base completada",
+        "Pruebas iniciales exitosas en 2 PYMES",
+        "Desarrollo de interfaz de usuario en curso"
+      ],
+      "expectedCompletion": "2024-12-31"
+    }
+  ]
+}
