@@ -3,7 +3,7 @@
     {
       "id": "digital-twin-manufacturing-sme",
       "title": "Implementación de Gemelos Digitales en PYMES Manufactureras: Un Caso de Éxito",
-      "authors": ["Dr. Marcus Rodriguez", "Eduardo Cisternas"],
+      "authors": ["Eduardo Cisternas"],
       "date": "2024-03-15",
       "image": "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?auto=format&fit=crop&q=80&w=1200",
       "abstract": "Análisis detallado de la implementación de un gemelo digital en una PYME manufacturera, logrando una reducción del 35% en costos de mantenimiento y un aumento del 25% en eficiencia operativa.",
@@ -30,7 +30,7 @@
     {
       "id": "ai-agents-retail-optimization",
       "title": "Agentes de IA para Optimización de Inventario en Retail: Solución Accesible para PYMES",
-      "authors": ["Dr. Emily Zhang", "Alex Patel"],
+      "authors": ["Eduardo Cisternas"],
       "date": "2024-03-01",
       "image": "https://images.unsplash.com/photo-1441986300917-64674bd600d8?auto=format&fit=crop&q=80&w=1200",
       "abstract": "Estudio de caso sobre la implementación de agentes de IA para gestión de inventario en una cadena minorista mediana, resultando en una reducción del 40% en stockouts y mejora del 30% en rotación de inventario.",
@@ -80,6 +80,60 @@
         }
       },
       "keywords": ["Logística", "Última Milla", "Optimización de Rutas", "GPS"]
+    },
+    {
+      "id": "ai-chatbots-customer-service",
+      "title": "Chatbots Inteligentes para Servicio al Cliente: Transformación en PYMES",
+      "authors": ["Eduardo Cisternas", "Alex Patel"],
+      "date": "2024-04-10",
+      "image": "https://images.unsplash.com/photo-1556155092-490a1ba16284?auto=format&fit=crop&q=80&w=1200",
+      "abstract": "Implementación de chatbots con NLP en una PYME de servicios, logrando un 50% de reducción en carga operativa y mejora del 40% en satisfacción del cliente.",
+      "content": {
+        "challenge": "Alto volumen de consultas básicas saturando al equipo humano y tiempos de respuesta lentos.",
+        "solution": "Chatbot de IA con procesamiento de lenguaje natural (NLP) para atención 24/7.",
+        "implementation": [
+          "Integración con sitio web y redes sociales",
+          "Entrenamiento con datos históricos de interacciones",
+          "Conexión a base de conocimiento de la empresa",
+          "Implementación de sistema multilingüe"
+        ],
+        "results": {
+          "metrics": [
+            "50% reducción en carga de trabajo del equipo",
+            "40% mejora en NPS (Net Promoter Score)",
+            "Respuestas en menos de 15 segundos"
+          ],
+          "investment": "€15,000 - €25,000"
+        }
+      },
+      "keywords": ["Chatbots", "Servicio al Cliente", "NLP", "Automatización"]
+    },
+    {
+      "id": "ai-marketing-personalization",
+      "title": "Personalización Masiva con IA: Estrategias para PYMES",
+      "authors": ["Dr. Emily Zhang", "Dr. Marcus Rodriguez"],
+      "date": "2024-05-05",
+      "image": "https://images.unsplash.com/photo-1533750516457-a7f992034fec?auto=format&fit=crop&q=80&w=1200",
+      "abstract": "Caso de éxito de una PYME que incrementó un 60% sus conversiones usando IA para hiper-personalizar campañas de marketing.",
+      "content": {
+        "challenge": "Campañas genéricas con bajas tasas de conversión y alto costo por adquisición.",
+        "solution": "Motor de recomendaciones basado en IA para segmentación avanzada y contenido dinámico.",
+        "implementation": [
+          "Integración de datos de CRM y comportamiento web",
+          "Desarrollo de algoritmos de segmentación predictiva",
+          "Generación automática de contenido personalizado",
+          "Pruebas A/B automatizadas"
+        ],
+        "results": {
+          "metrics": [
+            "60% aumento en tasa de conversión",
+            "35% reducción en costo por lead",
+            "ROI de 3:1 en 6 meses"
+          ],
+          "investment": "€20,000 - €35,000"
+        }
+      },
+      "keywords": ["Marketing Digital", "Personalización", "Machine Learning", "ROI"]
     }
   ],
   "research": [
@@ -105,32 +159,6 @@
       ],
       "expectedCompletion": "2024-02-28"
     },
-    {
-  "id": "asistente-virtual-emergencias-IA",
-  "title": "Asistente Virtual en Emergencias Médicas: Revolución con Inteligencia Artificial",
-  "authors": ["Dr. Laura Martínez", "Dr. Javier Gómez"],
-  "date": "2025-02-11",
-  "image": "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?auto=format&fit=crop&q=80&w=1200",
-  "abstract": "Desarrollo de SAVE-EM, un asistente virtual basado en IA para mejorar la toma de decisiones en emergencias médicas.",
-  "content": {
-    "challenge": "Los profesionales de emergencias médicas enfrentan la necesidad de acceder rápidamente a protocolos y guías actualizadas durante situaciones críticas.",
-    "solution": "Implementación de SAVE-EM, un sistema de IA generativa que integra más de 100 procesos estandarizados, permitiendo acceso inmediato a protocolos específicos y coordinación eficiente de traslados.",
-    "implementation": [
-      "Desarrollo de un sistema de IA generativa que integra más de 100 procesos estandarizados de gestión del CES-061.",
-      "Integración de SAVE-EM en los sistemas de emergencia existentes para facilitar el acceso a protocolos específicos y guías clínicas actualizadas.",
-      "Capacitación del personal de emergencias en el uso del asistente virtual para mejorar la coordinación y eficiencia en la atención."
-    ],
-    "results": {
-      "metrics": [
-        "Optimización del tiempo de respuesta en emergencias médicas.",
-        "Reducción de la variabilidad en la toma de decisiones clínicas.",
-        "Mejora en los resultados de salud de los pacientes atendidos."
-      ],
-      "investment": "Información no especificada."
-    }
-  },
-  "keywords": ["Inteligencia Artificial", "Emergencias Médicas", "Asistente Virtual", "Protocolos Clínicos"]
-},
     {
       "id": "ai-agents-sme",
       "title": "Agentes de IA Adaptables para Automatización en PYMES",
