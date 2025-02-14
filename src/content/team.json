@@ -1,15 +1,51 @@
 {
-  "leadership": [
+  "members": [
     {
       "id": "ed-cisternas",
       "name": "Eduardo Cisternas",
       "role": "Fundador y CEO",
       "image": "https://ik.imagekit.io/meiklabs/cara.jpg?auto=format&fit=crop&q=80&w=400",
       "bio": "Experto en Innovación e Inteligencia Artificial.",
-      "expertise": ["Inteligencia Artificial", "Liderazgo Estratégico", "Transformación Digital"],
+      "expertise": ["Inteligencia Artificial", "Liderazgo Estratégico", "Transformació"],
       "linkedinUrl": "https://linkedin.com/in/eduardo-cisternas",
       "publications": 45,
       "patents": 12
+    },
+    {
+      "id": "dr-marcus-rodriguez",
+      "name": "Dr. Marcus Rodriguez",
+      "role": "Chief Technology Officer",
+      "image": "https://images.unsplash.com/photo-1560250097-0b93528c311a?auto=format&fit=crop&q=80&w=400",
+      "bio": "Former Research Lead at DeepMind, specializing in multi-agent systems and digital twin technologies.",
+      "expertise": ["Digital Twins", "Machine Learning", "Systems Architecture"],
+      "linkedinUrl": "https://linkedin.com/in/marcus-rodriguez",
+      "publications": 38,
+      "patents": 8
+    }
+  ],
+  "researchers": [
+    {
+      "id": "dr-emily-zhang",
+      "name": "Dr. Emily Zhang",
+      "role": "Lead Research Scientist",
+      "image": "https://images.unsplash.com/photo-1580489944761-15a19d654956?auto=format&fit=crop&q=80&w=400",
+      "bio": "Specializes in reinforcement learning and autonomous systems.",
+      "expertise": ["Reinforcement Learning", "Robotics", "Neural Networks"],
+      "linkedinUrl": "https://linkedin.com/in/emily-zhang",
+      "publications": 22,
+      "currentProjects": ["Autonomous Agent Networks", "Multi-Modal Learning Systems"]
+    }
+  ],
+  "engineers": [
+    {
+      "id": "alex-patel",
+      "name": "Alex Patel",
+      "role": "Senior Software Engineer",
+      "image": "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?auto=format&fit=crop&q=80&w=400",
+      "bio": "Full-stack developer with expertise in real-time systems and 3D visualization.",
+      "expertise": ["Real-time Systems", "3D Graphics", "Cloud Architecture"],
+      "linkedinUrl": "https://linkedin.com/in/alex-patel",
+      "projects": ["Digital Twin Platform", "Simulation Engine"]
     }
   ]
 }

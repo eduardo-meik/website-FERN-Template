@@ -254,7 +254,7 @@ export const Home: React.FC = () => {
             </p>
           </div>
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-            {team.leadership.map((member) => (
+            {team.members.slice(0, 3).map((member) => (
               <Card key={member.id} variant="hover" className="text-center">
                 <div className="p-6">
                   <img

@@ -146,144 +146,43 @@ const AboutUs: React.FC = () => {
               Expertos apasionados por la innovación y la excelencia tecnológica.
             </p>
           </div>
-
-          {/* Leadership */}
-          <div className="mb-16">
-            <h3 className="text-2xl font-display font-bold text-neutral-dark mb-8">
-              Liderazgo
-            </h3>
-            <div className="grid md:grid-cols-2 gap-8">
-              {team.leadership.map((member) => (
-                <Card key={member.id} className="flex flex-col md:flex-row gap-6 p-6">
+          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+            {team.members.map((member) => (
+              <Card key={member.id} variant="hover" className="text-center">
+                <div className="p-6">
                   <img
                     src={member.image}
                     alt={member.name}
-                    className="w-32 h-32 rounded-lg object-cover"
+                    className="w-32 h-32 rounded-full mx-auto mb-6 object-cover"
                   />
-                  <div>
-                    <h4 className="text-xl font-display font-bold text-neutral-dark mb-2">
-                      {member.name}
-                    </h4>
-                    <div className="flex items-center gap-2 mb-3">
-                      <p className="text-primary font-medium">{member.role}</p>
-                      <a
-                        href={member.linkedinUrl}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="text-primary hover:text-primary/80 transition-colors"
-                      >
-                        <Linkedin className="h-5 w-5" />
-                      </a>
-                    </div>
-                    <p className="text-gray-600 mb-4">{member.bio}</p>
-                    <div className="flex flex-wrap gap-2">
-                      {member.expertise.map((skill) => (
-                        <span
-                          key={skill}
-                          className="px-3 py-1 bg-primary/10 text-primary rounded-full text-sm"
-                        >
-                          {skill}
-                        </span>
-                      ))}
-                    </div>
+                  <h3 className="text-xl font-display font-bold text-neutral-dark mb-2">
+                    {member.name}
+                  </h3>
+                  <div className="flex items-center justify-center gap-2 mb-4">
+                    <p className="text-primary font-medium">{member.role}</p>
+                    <a
+                      href={member.linkedinUrl}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="text-primary hover:text-primary/80 transition-colors"
+                    >
+                      <Linkedin className="h-5 w-5" />
+                    </a>
                   </div>
-                </Card>
-              ))}
-            </div>
-          </div>
-
-          {/* Researchers & Engineers */}
-          <div className="grid md:grid-cols-2 gap-8">
-            <div>
-              <h3 className="text-2xl font-display font-bold text-neutral-dark mb-8">
-                Investigadores
-              </h3>
-              <div className="space-y-6">
-                {team.researchers.map((member) => (
-                  <Card key={member.id} className="p-6">
-                    <div className="flex items-center gap-4 mb-4">
-                      <img
-                        src={member.image}
-                        alt={member.name}
-                        className="w-16 h-16 rounded-lg object-cover"
-                      />
-                      <div>
-                        <h4 className="font-display font-bold text-neutral-dark">
-                          {member.name}
-                        </h4>
-                        <div className="flex items-center gap-2">
-                          <p className="text-primary">{member.role}</p>
-                          <a
-                            href={member.linkedinUrl}
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            className="text-primary hover:text-primary/80 transition-colors"
-                          >
-                            <Linkedin className="h-4 w-4" />
-                          </a>
-                        </div>
-                      </div>
-                    </div>
-                    <p className="text-gray-600 mb-4">{member.bio}</p>
-                    <div className="flex flex-wrap gap-2">
-                      {member.expertise.map((skill) => (
-                        <span
-                          key={skill}
-                          className="px-3 py-1 bg-primary/10 text-primary rounded-full text-sm"
-                        >
-                          {skill}
-                        </span>
-                      ))}
-                    </div>
-                  </Card>
-                ))}
-              </div>
-            </div>
-            <div>
-              <h3 className="text-2xl font-display font-bold text-neutral-dark mb-8">
-                Ingenieros
-              </h3>
-              <div className="space-y-6">
-                {team.engineers.map((member) => (
-                  <Card key={member.id} className="p-6">
-                    <div className="flex items-center gap-4 mb-4">
-                      <img
-                        src={member.image}
-                        alt={member.name}
-                        className="w-16 h-16 rounded-lg object-cover"
-                      />
-                      <div>
-                        <h4 className="font-display font-bold text-neutral-dark">
-                          {member.name}
-                        </h4>
-                        <div className="flex items-center gap-2">
-                          <p className="text-primary">{member.role}</p>
-                          <a
-                            href={member.linkedinUrl}
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            className="text-primary hover:text-primary/80 transition-colors"
-                          >
-                            <Linkedin className="h-4 w-4" />
-                          </a>
-                        </div>
-                      </div>
-                    </div>
-                    <p className="text-gray-600 mb-4">{member.bio}</p>
-                    <div className="flex flex-wrap gap-2">
-                      {member.expertise.map((skill) => (
-                        <span
-                          key={skill}
-                          className="px-3 py-1 bg-primary/10 text-primary rounded-full text-sm"
-                        >
-                          {skill}
-                        </span>
-                      ))}
-                    </div>
-                  </Card>
-                ))}
-              </div>
-            </div>
+                  <p className="text-gray-600 mb-6">{member.bio}</p>
+                  <div className="flex flex-wrap justify-center gap-2">
+                    {member.expertise.map((skill) => (
+                      <span
+                        key={skill}
+                        className="px-3 py-1 bg-primary/10 text-primary rounded-full text-sm"
+                      >
+                        {skill}
+                      </span>
+                    ))}
+                  </div>
+                </div>
+              </Card>
+            ))}
           </div>
         </div>
       </section>
