@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { ArrowRight, Bot, Boxes, FlaskRound as Flask, ChevronRight } from 'lucide-react';
+import { ArrowRight, Bot, Boxes, FlaskRound as Flask, ChevronRight, Linkedin } from 'lucide-react';
 import { PageLayout } from '../components/layout/PageLayout';
 import { Button } from '../components/ui/Button';
 import { Card } from '../components/ui/Card';
@@ -265,7 +265,17 @@ export const Home: React.FC = () => {
                   <h3 className="text-xl font-display font-bold text-neutral-dark mb-2">
                     {member.name}
                   </h3>
-                  <p className="text-primary font-medium mb-4">{member.role}</p>
+                  <div className="flex items-center gap-2 mb-4">
+                    <p className="text-primary font-medium">{member.role}</p>
+                    <a
+                      href={member.linkedinUrl}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="text-primary hover:text-primary/80 transition-colors"
+                    >
+                      <Linkedin className="h-5 w-5" />
+                    </a>
+                  </div>
                   <p className="text-gray-600 mb-6">{member.bio}</p>
                   <div className="flex flex-wrap justify-center gap-2">
                     {member.expertise.map((skill) => (

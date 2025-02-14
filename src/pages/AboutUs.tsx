@@ -3,7 +3,7 @@ import { PageLayout } from '../components/layout/PageLayout';
 import { Card } from '../components/ui/Card';
 import team from '../content/team.json';
 import { Button } from '../components/ui/Button';
-import { ArrowRight, Award, Target, Users, Lightbulb } from 'lucide-react';
+import { ArrowRight, Award, Target, Users, Lightbulb, Linkedin } from 'lucide-react';
 
 const AboutUs: React.FC = () => {
   return (
@@ -164,7 +164,17 @@ const AboutUs: React.FC = () => {
                     <h4 className="text-xl font-display font-bold text-neutral-dark mb-2">
                       {member.name}
                     </h4>
-                    <p className="text-primary font-medium mb-3">{member.role}</p>
+                    <div className="flex items-center gap-2 mb-3">
+                      <p className="text-primary font-medium">{member.role}</p>
+                      <a
+                        href={member.linkedinUrl}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="text-primary hover:text-primary/80 transition-colors"
+                      >
+                        <Linkedin className="h-5 w-5" />
+                      </a>
+                    </div>
                     <p className="text-gray-600 mb-4">{member.bio}</p>
                     <div className="flex flex-wrap gap-2">
                       {member.expertise.map((skill) => (
@@ -201,7 +211,17 @@ const AboutUs: React.FC = () => {
                         <h4 className="font-display font-bold text-neutral-dark">
                           {member.name}
                         </h4>
-                        <p className="text-primary">{member.role}</p>
+                        <div className="flex items-center gap-2">
+                          <p className="text-primary">{member.role}</p>
+                          <a
+                            href={member.linkedinUrl}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="text-primary hover:text-primary/80 transition-colors"
+                          >
+                            <Linkedin className="h-4 w-4" />
+                          </a>
+                        </div>
                       </div>
                     </div>
                     <p className="text-gray-600 mb-4">{member.bio}</p>
@@ -236,7 +256,17 @@ const AboutUs: React.FC = () => {
                         <h4 className="font-display font-bold text-neutral-dark">
                           {member.name}
                         </h4>
-                        <p className="text-primary">{member.role}</p>
+                        <div className="flex items-center gap-2">
+                          <p className="text-primary">{member.role}</p>
+                          <a
+                            href={member.linkedinUrl}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="text-primary hover:text-primary/80 transition-colors"
+                          >
+                            <Linkedin className="h-4 w-4" />
+                          </a>
+                        </div>
                       </div>
                     </div>
                     <p className="text-gray-600 mb-4">{member.bio}</p>

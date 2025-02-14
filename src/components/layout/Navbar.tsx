@@ -1,7 +1,8 @@
 import React, { useState } from 'react';
 import { Link, useLocation } from 'react-router-dom';
-import { Menu, X, Beaker } from 'lucide-react';
+import { Menu, X } from 'lucide-react';
 import { Button } from '../ui/Button';
+import { Logo } from '../ui/Logo';
 import type { NavItem } from '../../types';
 
 const navigation: NavItem[] = [
@@ -27,10 +28,7 @@ export const Navbar: React.FC = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between h-16">
           <div className="flex items-center">
-            <Link to="/" className="flex items-center space-x-2">
-              <Beaker className="h-8 w-8 text-primary" />
-              <span className="font-display font-bold text-xl text-primary">MEIK LABS</span>
-            </Link>
+            <Logo />
           </div>
 
           {/* Desktop Navigation */}

@@ -1,7 +1,8 @@
 import React from 'react';
 import { Link, useNavigate } from 'react-router-dom';
 import { Container } from '../ui/Container';
-import { Beaker, Mail, MapPin, Phone } from 'lucide-react';
+import { Mail, MapPin, Phone } from 'lucide-react';
+import { Logo } from '../ui/Logo';
 
 export const Footer: React.FC = () => {
   const currentYear = new Date().getFullYear();
@@ -18,10 +19,9 @@ export const Footer: React.FC = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           {/* Company Info */}
           <div>
-            <Link to="/" className="flex items-center space-x-2 mb-4">
-              <Beaker className="h-8 w-8" />
-              <span className="font-display font-bold text-xl">MEIK LABS</span>
-            </Link>
+            <div className="mb-4">
+              <Logo variant="light" />
+            </div>
             <p className="text-gray-300 mb-4">
               Pioneros en el futuro de la IA y tecnologías de Gemelos Digitales.
             </p>
